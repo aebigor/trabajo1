@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*base*/
+.body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image:url("img/fondo.webp");
+    background-position: center;
+    background-size: cover;
+    color: rgb(136, 19, 19)323;
+}
+.formulario{
+    width: 400px;
+    padding: 1rem;
+    margin: 2rem;
+    background: #243032;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+    box-shadow: 7px 13px 37px #0bcbec;
+    background-repeat: no-repeat;
+    background-size: 100% 115%;
+    text-align: center;
+}
+.container-form {
+    width: 90%;
+    height: 90vh;
+    display: flex;
+    justify-content: space-around;
+    transition: all .5s ease-out;
+    
+
+}
+
+.welcomen-back {
+    display:flex;
+    align-items: center;
+    text-align: center;
+}
+.form-register h4{
+    font-size: 22px;
+    margin-bottom: 20px;
+
+}
+/*controles internos*/
+.controls{
+    width: 100%;
+    background: #fff;
+    padding: 10px;
+    border-radius: 4px ;
+    margin-bottom: 16px;
+    border: 2px solid #0bcbec;
+    font-family: 'calibri';
+    font-size: 18px;
+}
+/*texto*/
+.form-register p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+}
+.form-register a:hover {
+    color: white;
+    text-decoration: underline; } 
+/*botones*/
+.formulario .botons{
+    display: inline-block;
+    width: 100%;
+    margin-top: 0px;
+    background: #0bcbec;
+    border: none;
+    padding: 16px;
+    color: white;
+    font-size: 18px ;
+    text-decoration: none;
+    text-align: center;
+
+}
+.form-register .botons:hover{
+    background-color: rgb(10, 48, 173);
+    text-decoration: none;
+}
+
+.iconos {
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    margin:auto;
+}
+.border-ico{
+    height: 50px;
+    width: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem;
+    border: solid thin white;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    transition: all .3s ease-in;
+}
+
+.border-ico:hover {
+    background-color: darkgrey;
+    cursor: pointer;
+}
+
+.message {
+    padding: 1rem;
+}
+
+.message h2 {
+    font-size: 1rem;
+    padding: 1rem 0;
+}
+
+.message button {
+    padding: 1rem;
+    font-weight: 400;
+    background-color: rgb(24, 138, 200);
+    border-radius: 2rem;
+    border: none;
+    outline:none;
+    cursor: pointer;
+    font-size:.9rem;
+    margin-top:2rem;
+    transition: all .3s ease-in;
+    color: #fff;
+}
+
+.message button:hover {
+    background-color: #0bcbec;
+}
+
+.cuenta-gratis {
+    padding: 2rem 0;
+}
+
+.inicio{
+    position:absolute;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.inicio.active {
+    opacity: 1;
+    visibility: hidden;
+}
+
+.registro.active{
+    opacity: 0;
+    visibility: hidden;
+}
