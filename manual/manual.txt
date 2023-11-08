@@ -1,0 +1,80 @@
+Tabla de Contenidos:
+
+Inicio:
+
+Introducción a la página web.
+Acceso a la página principal.
+Registro de Horarios (Rol de Agente):
+
+Registro de horarios de trabajo.
+Ingreso de datos en el formulario.
+Inicio de Sesión (Para Usuarios Registrados):
+
+Acceso con credenciales de usuario.
+Visualización de Horarios (Rol de Administrador):
+
+Ver horarios registrados en la tabla.
+Buscar y filtrar horarios.
+Editar y eliminar horarios.
+Consejos para el Uso Eficiente:
+
+Mantener la información actualizada.
+Validación de datos en el formulario.
+Registro de errores.
+1. Inicio:
+
+Introducción a la página web:
+
+La página web de gestión de horarios está diseñada para registrar y administrar los horarios de trabajo de los agentes.
+Proporciona una interfaz sencilla para ingresar y visualizar los horarios.
+Acceso a la página principal:
+
+Abre un navegador web e ingresa la URL de la página.
+La página principal mostrará un formulario de inicio de sesión (para usuarios registrados), o un formulario de registro de horarios (para agentes).
+2. Registro de Horarios (Rol de Agente):
+
+Registro de horarios de trabajo:
+
+Utiliza el formulario de registro para ingresar los horarios de trabajo de los agentes.
+Completa los siguientes campos:
+ID del Usuario (Agente): Ingresa el ID o nombre del agente.
+Día de la Semana: Selecciona el día de la semana.
+Hora de Inicio: Ingresa la hora de inicio del turno.
+Hora de Fin: Ingresa la hora de fin del turno.
+Ingreso de datos en el formulario:
+
+Completa todos los campos obligatorios.
+Presiona el botón "Submit" para enviar los datos al sistema.
+Recibirás un mensaje de confirmación o error después de enviar el formulario.
+3. Inicio de Sesión (Para Usuarios Registrados):
+
+Acceso con credenciales de usuario:
+Si eres un usuario registrado (agente o administrador), inicia sesión con tu nombre de usuario y contraseña.
+La página te redirigirá a la sección correspondiente según tu rol (registro de horarios o visualización/edición de horarios).
+4. Visualización de Horarios (Rol de Administrador):
+
+Ver horarios registrados en la tabla:
+
+La tabla muestra los horarios de trabajo registrados en la base de datos.
+Cada fila de la tabla contiene la información del agente, día de la semana y horarios.
+Puedes desplazarte hacia abajo para ver más registros si hay demasiados para mostrar en una sola página.
+Buscar y filtrar horarios:
+
+Utiliza la barra de búsqueda o los filtros disponibles para buscar horarios específicos.
+Los filtros pueden incluir criterios como el día de la semana.
+Editar y eliminar horarios:
+
+Para editar un horario, selecciona la opción de edición correspondiente en la tabla.
+Para eliminar un horario, selecciona la opción de eliminación correspondiente en la tabla.
+Confirma las acciones de edición o eliminación según sea necesario.
+5. Consejos para el Uso Eficiente:
+
+Mantener la información actualizada:
+
+Asegúrate de mantener la información de los horarios actualizada con los cambios de turno o ajustes en los horarios.
+Validación de datos en el formulario:
+
+Verifica que todos los campos estén completos y que los datos ingresados sean correctos.
+Registro de errores:
+
+Si experimentas problemas o errores inesperados, comunícate con el administrador del sistema para obtener asistencia.
