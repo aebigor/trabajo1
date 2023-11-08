@@ -1,4 +1,5 @@
 <?php
+require_once "../models/db.php";
 error_reporting(0);
 if (!empty($_POST['btnregister'])) {
 
@@ -44,7 +45,7 @@ if (!empty($_POST['btnregister'])) {
 
         if ($sql == 1) {
             echo '<div class="alert alert-success">Persona registrada correctamente</div>';
-            header("location:loading/rol.php");
+            
         } else {
             echo '<div class="alert alert-danger">Error al registrar correctamente</div>';
         }

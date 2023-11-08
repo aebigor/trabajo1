@@ -160,20 +160,3 @@
     opacity: 0;
     visibility: hidden;
 }
-
-.form-container {
-    flex: 1; /* El formulario ocupará 50% del ancho disponible */
-    padding: 20px;
-    background: #fff;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.table-container {
-    flex: 1; /* La tabla ocupará 50% del ancho disponible */
-    padding: 20px;
-    background: #fff;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin-left: 20px; /* Espacio entre el formulario y la tabla */
-}
