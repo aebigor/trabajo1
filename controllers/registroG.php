@@ -1,5 +1,5 @@
 <?php
-require_once "../models/db.php";
+require_once "../models/db1.php";
 error_reporting(0);
 
 if (isset($_POST['btnregister'])) {
