@@ -1,63 +1,112 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <script src="https://kit.fontawesome.com/71bc9b1c9c.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="/registroG3/assets/css/registro.css">
-    <title>crud</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>Home</title>
+
+	<!-- Normalize V8.0.1 -->
+	<link rel="stylesheet" href="assets/css/normalize.css">
+
+	<!-- Bootstrap V4.3 -->
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+	<!-- Bootstrap Material Design V4.0 -->
+	<link rel="stylesheet" href="assets/css/bootstrap-material-design.min.css">
+
+	<!-- Font Awesome V5.9.0 -->
+	<link rel="stylesheet" href="assets/css/all.css">
+
+	<!-- Sweet Alerts V8.13.0 CSS file -->
+	<link rel="stylesheet" href="assets/css/sweetalert2.min.css">
+
+	<!-- Sweet Alert V8.13.0 JS file-->
+	<script src="assets/js/sweetalert2.min.js"></script>
+
+	<!-- jQuery Custom Content Scroller V3.1.5 -->
+	<link rel="stylesheet" href="assets/css/jquery.mCustomScrollbar.css">
+
+	<!-- General Styles -->
+	<link rel="stylesheet" href="assets/css/style.css">
+
+	<link rel="stylesheet" href="assets/css/fondo.css">
+
 </head>
+
 <body>
-    <h1 class="text-center p-3">administrador</h1>
-<div > 
-<div class="form-container">
-    <form  method="post"  enctype="multipart/form-data">
-    <?php
-    
-    require_once "../controllers/registroU_usuario.php";
-    
 
-    ?>
+	<!-- Main container -->
+	<main class="full-box main-container">
+		<!-- Nav lateral -->
+		<section class="full-box nav-lateral">
+			<div class="full-box nav-lateral-bg show-nav-lateral"></div>
+			<div class="full-box nav-lateral-content">
+				<figure class="full-box nav-lateral-avatar">
+					<i class="far fa-times-circle show-nav-lateral"></i>
+					<img src="img/Avatar.png" class="img-fluid" alt="Avatar">
+					<figcaption class="roboto-medium text-center">
+						santiago <br><small class="roboto-condensed-light">Web Developer</small>
+					</figcaption>
+				</figure>
+				<div class="full-box nav-lateral-bar"></div>
+				<nav class="full-box nav-lateral-menu">
+					<ul>
+						<li>
+							<a href="home.html"><i class="fab fa-dashcube fa-fw"></i> &nbsp; Administrador</a>
+						</li>
 
-    
-    <div class="mb-3">
-    <label for="exampleInputEmail1" class="form-label">Nombre</label>
-    <input type="text" class="form-control" name="Nombre">
-    
-    </div>
-    <div class="mb-3">
-    <label for="exampleInputPassword1" class="form-label">identificacion</label>
-    <input type="text" class="form-control" name="Identific">
-    </div>
-    <div class="mb-3">
-    <label for="exampleInputPassword1" class="form-label">fecha de nacimiento</label>
-    <input type="date" class="form-control" name="FechaNa">
-    </div>
-    
+						<li>
+							<a href="#" class="nav-btn-submenu"><i class="fas  fas fa-users fa-fw"></i> &nbsp; Roles <i class="fas fa-chevron-down"></i></a>
+							<ul>
+								<li>
+									<a href="?c=Roles&a=createUser"><i class="fas fa-plus fa-fw"></i> &nbsp; Nuevo gerente</a>
+								</li>
+								<li>
+									<a href="?c=Roles&a=readRol"><i class="fas fa-clipboard-list fa-fw"></i> &nbsp; Lista de gerente</a>
+								</li>
+							</ul>
+						</li>   
 
-    <div class="mb-3">
-    <label for="exampleInputPassword1" class="form-label">documento</label>
-    <input type="file" class="form-control" name="Foto" id="Foto" 
-    onclick="actualizarImg">
-    </div>
-    
-    <div class="mb-3">
-    <label for="exampleInputPassword1" class="form-label">correo</label>
-    <input type="text" class="form-control" name="Correo">
-    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-    </div>
-    
-    
-    
-    <div class="mb-3">
-    <label for="exampleInputPassword1" class="form-label">Password</label>
-    <input type="password" class="form-control" name="passCorreo">
-    </div>
+						<li>
+							<a href="#" class="nav-btn-submenu"><i class="fas  fa-user-secret fa-fw"></i> &nbsp; Usuarios <i class="fas fa-chevron-down"></i></a>
+							<ul>
+								<li>
+									<a href="?c=Roles&a=createUser"><i class="fas fa-plus fa-fw"></i> &nbsp; Nuevo usuario</a>
+								</li>
+								<li>
+									<a href="?c=Roles&a=readRol"><i class="fas fa-clipboard-list fa-fw"></i> &nbsp; Lista de usuarios</a>
+								</li>
+								<li>
+									<a href="user-search.html"><i class="fas fa-search fa-fw"></i> &nbsp; Buscar usuario</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</section>
 
+		<!-- Page content -->
+		<section class="full-box page-content">
+			<nav class="full-box navbar-info">
+				<a href="#" class="float-left show-nav-lateral">
+					<i class="fas fa-exchange-alt"></i>
+				</a>
+				<a href="user-update.html">
+					<i class="fas fa-user-cog"></i>
+				</a>
+				<a href="#" class="btn-exit-system">
+					<i class="fas fa-power-off"></i>
+				</a>
+			</nav>
 
-    <button type="submit" class="btn btn-primary" name="btnregister" value="ok">Submit</button>
-
-    </form>
-
-    </div>
+			<!-- Page header -->
+			<div class="full-box page-header">
+				<h3 class="text-left">
+					<i class="fab fa-dashcube fa-fw"></i> &nbsp; Administrador
+				</h3>
+				<p class="text-justify">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit nostrum rerum animi natus beatae ex. Culpa blanditiis tempore amet alias placeat, obcaecati quaerat ullam, sunt est, odio aut veniam ratione.
+				</p>
+			</div>

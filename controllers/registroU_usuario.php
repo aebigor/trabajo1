@@ -9,7 +9,7 @@ if (!empty($_POST['btnregister'])) {
         isset($_POST["FechaNa"]) && !empty($_POST["FechaNa"]) &&
         isset($_POST["Correo"]) && !empty($_POST["Correo"]) &&
         isset($_POST["passCorreo"]) && !empty($_POST["passCorreo"])
-    ) {
+    ) { 
         
         $nombre = $_POST["Nombre"];
         $identific = $_POST["Identific"];

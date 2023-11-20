@@ -20,9 +20,8 @@
                     <form action="">
         
                         
-                        <a role="botons" class="botons" href="controllers/Dashboard.php" target="_blank">USUARIO</a>
-                        <p></p>
-                        <a role="buttons" class="botons" href="controllers/Loading.php">ADMINISTRADOR</a>
+                       
+                        <a role="buttons" class="botons" href="controllers/Crol.php">ADMINISTRADOR</a>
                         <p></p>
                         <a role="botons" class="botons" href="controllers/gerente.php">GERENTE</a>
                         <p></p>

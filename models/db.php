@@ -1,10 +1,16 @@
 <?php
-$conexion = mysqli_connect("localhost","root","","registro_usuario") or die(mysql_error($mysqli));
-$conexion->set_charset('utf8');
-if(!$conexion){
-    die("no pudo conectars a la base de datos". msqli_error());
-}
-
-
+    class DataBase{       
     
+        public static function connection(){            
+            $hostname = "localhost";
+            $port = "3306";
+            $database = "registro_usuario";
+            $username = "root";
+            $password = "";
+			$pdo = new PDO("mysql:host=$hostname;port=$port;dbname=$database;charset=utf8",$username,$password);
+			$pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+			return $pdo;
+            
+		}
+	}
 ?>

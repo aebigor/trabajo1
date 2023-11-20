@@ -1,5 +1,5 @@
 <?php
-require_once "../models/db.php";
+require_once "../models/db1.php";
 
 // Verificar si los datos 'usuario' y 'password' se han enviado correctamente desde el formulario
 if (isset($_POST['Correo']) && isset($_POST['passCorreo'])) {
@@ -13,7 +13,7 @@ if (isset($_POST['Correo']) && isset($_POST['passCorreo'])) {
     $filas = mysqli_num_rows($resultado);
 
     if ($filas) {
-        header("location:gerenteC.php");
+        header("location:Loading.php");
     } else {
         include("inicio-secion.html");
         ?>

@@ -17,7 +17,7 @@
         </thead>
         <tbody>
             <?php
-            include "../models/db.php";
+            include "../models/db1.php";
             
             $sql=$conexion->query("select * from gerente");
             while ($datos = $sql->fetch_object()) { ?>
