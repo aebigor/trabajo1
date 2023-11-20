@@ -1,6 +1,7 @@
 create database registro_usuario;
 use registro_usuario;
-drop table gerente;
+DROP database registro_usuario;
+
 
 CREATE TABLE `USUARI` (
     
@@ -23,7 +24,7 @@ CREATE TABLE `USUARI` (
 	Nombre varchar(253) CHARACTER SET utf8 DEFAULT NULL,
     Identific varchar(50) DEFAULT NULL,
     FechaNa int(10) DEFAULT NULL,
-    Foto varchar(255) DEFAULT NULL,
+    Foto blob (500) DEFAULT NULL,
     Correo varchar(255) DEFAULT NULL,
 	passCorreo varchar(255) DEFAULT NULL,
 
